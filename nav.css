@@ -36,3 +36,12 @@ body {
 #nav-bar ul li:hover .menu {
   display: block;
 }
+#nav-bar .mini-menu {
+  position: absolute;
+  left: 200px;
+  display: none;
+  top: 0px;
+}
+#nav-bar ul li :hover .mini-menu {
+  display: block;
+}
